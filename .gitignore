@@ -1,0 +1,13 @@
+# Ignore files for version control
+node_modules/
+dist/
+build/
+*.log
+.env
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
