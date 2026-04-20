@@ -57,24 +57,18 @@ export default function Hero() {
           variants={itemVariants}
           style={{ animation: 'fadeInUp 0.8s ease-out 0.6s both' }}
         >
-          <motion.button 
-            className="btn btn-primary"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Voir mon expérience
-          </motion.button>
-          <motion.button 
+          <motion.a
+            href={`${import.meta.env.BASE_URL}cv-matisse-dufour.pdf`}
+            download="CV-Matisse-Dufour.pdf"
             className="btn btn-secondary"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            style={{ textDecoration: 'none' }}
           >
-            Télécharger CV
-          </motion.button>
+            Télécharger mon CV
+          </motion.a>
         </motion.div>
       </motion.div>
     </section>
   )
 }
-
-

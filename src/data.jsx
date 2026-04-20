@@ -4,7 +4,6 @@ export const portfolioData = {
     title: "Matisse Dufour",
     subtitle: "Développeur R&D | Étudiant en 3ème année de BUT Informatique | Alternant chez Vallourec",
     tagline: "Passionné par l'informatique",
-    cta1: "Voir mon expérience",
     cta2: "Télécharger mon CV",
   },
 
